@@ -29,5 +29,6 @@ function addTask(){
     buttonContainer.appendChild(deletebutton)
     listItem.appendChild(buttonContainer)
     tasklist.appendChild(listItem)
+     taskInput.value=""
 
 }
